@@ -1,0 +1,27 @@
+a {
+  text-decoration: none;
+}
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+div {
+  animation-name: change-colors;
+  animation-duration: 6s;
+}
+@keyframes change-colors {
+  0% {
+    background-color: #cbdfbd;
+  }
+  25% {
+    background-color: #b5e48c;
+  }
+  50% {
+    background-color: #52b69a;
+  }
+  75% {
+    background-color: #1a759f;
+  }
+  100% {
+    background-color: #cbdfbd;
+  }
+}
